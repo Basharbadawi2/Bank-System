@@ -31,7 +31,7 @@ public:
 	}
 	Client* searchClient(int id) {
 		for (clIt = allClients.begin(); clIt != allClients.end(); clIt++) {
-			if (clIt->getId() == id) return clIt._Ptr;
+			if (clIt->getId() == id) return clIt._ptr;
 		}
 		return NULL;
 	}
